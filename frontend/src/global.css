@@ -11,3 +11,27 @@
   --qwik-dark-background: #151934;
   --qwik-dark-text: #ffffff;
 }
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  @apply text-gray-800;
+}
+
+h1 {
+  @apply text-4xl font-bold;
+}
+
+h2 {
+  @apply text-3xl font-bold;
+}
+
+h3 {
+  @apply text-2xl font-bold;
+}
+
+h4 {
+  @apply text-xl font-bold;
+}
